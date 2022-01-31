@@ -6,7 +6,7 @@ def fes(year,budget):
         return budget
     else:
         year +=1
-        return fes(year,budget + 10)
+        return fes(year,budget + 1000)
     
 print(fes(2000,10000))
 
